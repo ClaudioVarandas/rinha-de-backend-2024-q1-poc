@@ -2,7 +2,7 @@
 
 ### Introdução
 
-Este é o projecto de implementação para a participação da rinha de backend 2024Q1. 
+Este é o meu projecto de implementação, para a participação da rinha de backend 2024Q1. 
 
 Após assistir aos mais diversos conteudos criados para a primeira rinha do lado de fora, 
 desta vez resolvi meter mão a obra e fazer qq coisa, tentar pelo menos participar.
@@ -27,6 +27,15 @@ integrada no PHP com o objectivo de melhorar a performance.
 
 ### Como correr o projecto
 
+É necesario docker e docker compose instalado.
+
+Subir o stack
+
+`docker compose up -d --build`
+
+Destruir o stack
+
+`docker compose down -v`
 
 #### Notas
 
@@ -45,8 +54,11 @@ Cláudio Varandas de Portugal , Lisboa.
 
 #### Creditos 
 
-Inspiração para configurações docker :
+Inspiração para configurações docker / imagem php :
 
 https://github.com/zanfranceschi/rinha-de-backend-2024-q1-poc
+
 https://github.com/Dowingows/rinha-backend-2024-q1-phalcon-php/blob/main/Dockerfile
+
 https://github.com/joseluisq/alpine-php-fpm/tree/master
+
